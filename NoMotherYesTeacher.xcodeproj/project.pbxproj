@@ -13,6 +13,9 @@
 		BAB9676F22CB5C6900D8445D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAB9676E22CB5C6900D8445D /* Assets.xcassets */; };
 		BAB9677222CB5C6900D8445D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAB9677022CB5C6900D8445D /* LaunchScreen.storyboard */; };
 		BAB9677522CB5C6900D8445D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB9677422CB5C6900D8445D /* main.m */; };
+		BAB9677D22CB5CD000D8445D /* ClassRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB9677C22CB5CD000D8445D /* ClassRoom.m */; };
+		BAB9678022CB5CDA00D8445D /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB9677F22CB5CDA00D8445D /* Teacher.m */; };
+		BAB9678322CB5CE100D8445D /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = BAB9678222CB5CE100D8445D /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		BAB9677122CB5C6900D8445D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAB9677322CB5C6900D8445D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAB9677422CB5C6900D8445D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BAB9677B22CB5CD000D8445D /* ClassRoom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassRoom.h; sourceTree = "<group>"; };
+		BAB9677C22CB5CD000D8445D /* ClassRoom.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClassRoom.m; sourceTree = "<group>"; };
+		BAB9677E22CB5CDA00D8445D /* Teacher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		BAB9677F22CB5CDA00D8445D /* Teacher.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+		BAB9678122CB5CE100D8445D /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		BAB9678222CB5CE100D8445D /* Student.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +71,12 @@
 				BAB9676622CB5C6800D8445D /* AppDelegate.m */,
 				BAB9676822CB5C6800D8445D /* ViewController.h */,
 				BAB9676922CB5C6800D8445D /* ViewController.m */,
+				BAB9677B22CB5CD000D8445D /* ClassRoom.h */,
+				BAB9677C22CB5CD000D8445D /* ClassRoom.m */,
+				BAB9677E22CB5CDA00D8445D /* Teacher.h */,
+				BAB9677F22CB5CDA00D8445D /* Teacher.m */,
+				BAB9678122CB5CE100D8445D /* Student.h */,
+				BAB9678222CB5CE100D8445D /* Student.m */,
 				BAB9676B22CB5C6800D8445D /* Main.storyboard */,
 				BAB9676E22CB5C6900D8445D /* Assets.xcassets */,
 				BAB9677022CB5C6900D8445D /* LaunchScreen.storyboard */,
@@ -142,8 +157,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BAB9676A22CB5C6800D8445D /* ViewController.m in Sources */,
+				BAB9677D22CB5CD000D8445D /* ClassRoom.m in Sources */,
 				BAB9677522CB5C6900D8445D /* main.m in Sources */,
+				BAB9678022CB5CDA00D8445D /* Teacher.m in Sources */,
 				BAB9676722CB5C6800D8445D /* AppDelegate.m in Sources */,
+				BAB9678322CB5CE100D8445D /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
