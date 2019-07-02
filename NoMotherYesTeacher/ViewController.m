@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Student.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [[Student new] question];
 }
 
 

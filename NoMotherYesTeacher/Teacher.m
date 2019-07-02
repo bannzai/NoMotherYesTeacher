@@ -10,4 +10,8 @@
 
 @implementation Teacher
 
+- (void)teacher {
+    NSLog(@"Hi");
+}
+
 @end

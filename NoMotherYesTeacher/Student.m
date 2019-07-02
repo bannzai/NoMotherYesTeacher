@@ -7,7 +7,12 @@
 //
 
 #import "Student.h"
+#import "Teacher.h"
 
 @implementation Student
+
+- (void)question {
+    [[Teacher new] teacher];
+}
 
 @end

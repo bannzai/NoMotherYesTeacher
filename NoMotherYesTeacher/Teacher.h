@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface Teacher : NSObject
-
+- (void)teacher;
 @end
 
 NS_ASSUME_NONNULL_END
