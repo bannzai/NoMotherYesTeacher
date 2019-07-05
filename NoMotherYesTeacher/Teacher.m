@@ -23,7 +23,7 @@
     return YES;
 }
 void instanceMethod(id self, SEL _cmd) {
-    NSLog(@"Mother って呼ばれちゃった。。。(///ω///)");
+    NSLog(@"%@ って呼ばれちゃった。。。(///ω///)", NSStringFromSelector(_cmd));
 }
 
 - (NSMethodSignature *)methodSignatureForSelector:(SEL)aSelector {
