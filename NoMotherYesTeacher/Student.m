@@ -12,7 +12,7 @@
 @implementation Student
 
 - (void)question {
-    [[Teacher new] performSelector:@selector(teacher)];
+    [[Teacher new] performSelector:@selector(mother)];
 }
 
 @end
